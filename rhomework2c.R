@@ -1,0 +1,7 @@
+employees_name <- c("Sara","Matt","Sam","Rob","Tony")
+employees_age <- c(30,45,32,23,55)
+employees_sex <- c("female", "male", "female", "male", "male")
+employees_role <- c("manager","coordinator","data analyst","intern","director")
+employees_lengh <- c(5,6,3,1,8)
+frame <- data.frame(employees_name,employees_age,employees_sex,employees_role,employees_lengh)
+print(frame)
